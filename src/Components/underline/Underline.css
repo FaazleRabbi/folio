@@ -1,0 +1,23 @@
+.underline{
+    margin: 10px;
+    height: 3px;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.underline_container{
+    background-color: #F2BC72;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.underline1{
+    height: 7px;
+    width: 30%;
+margin: -2px;
+    background-color: #295584;
+    border-radius: 10px;
+}

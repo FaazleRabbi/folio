@@ -4,5 +4,28 @@
 }
 
 .packageImg{
-    
+    height: 200px;
+    width: 200px;
+}
+
+.packageCard{
+    border-radius: 20px;
+    background-color: rgb(231, 223, 223);
+
+}
+.packageCard:hover{
+    background-color: white;
+}
+
+.order_btn{
+    text-decoration: none;
+    border: 1px solid gainsboro;
+    margin: 20px;
+    padding:10px 40px;
+    border-radius: 20px;
+    color: black;
+}
+
+.order_btn:hover{
+    background-color: goldenrod;
 }

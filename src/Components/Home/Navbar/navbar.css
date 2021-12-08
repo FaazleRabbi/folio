@@ -1,0 +1,9 @@
+.navImage{
+    height: 60px;
+}
+
+@media screen and (max-width: 600px){
+    .navImage{
+        height: 50px;
+    }
+}

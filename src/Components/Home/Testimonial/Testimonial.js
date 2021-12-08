@@ -1,4 +1,5 @@
 import React from "react";
+import Underline from "../../underline/Underline";
 import TestimonialCardSlider from "../TestimonialCardSlider/TestimonialCardSlider";
 
 
@@ -7,6 +8,8 @@ const Testimonial = () => {
   return (
     <div style={{backgroundColor:'#1e292f'}} className=" pt-4 pb-5">
       <h6 className="text-center text-light font-weight-bold">TESTIMONIAL</h6>
+      <Underline/>
+
       <div className="row w-100 mt-5 mb-5 d-flex align-items-center">
         <div className="col-md-5 p-5 offset-md-1">
           <h2 className="text-light font-weight-bold"> CUSTOMERS REVIEWS </h2>

@@ -4,6 +4,8 @@ import Navbar from "../Home/Navbar/Navbar";
 import Order from "./Order/Order";
 import OrderList from "./OrderList/OrderList";
 import Review from "./Review/Review";
+import './dashborad.css'
+
 
 const Dashboard = () => {
   return (
@@ -12,13 +14,13 @@ const Dashboard = () => {
       <div className='d-md-flex'>
       <HashRouter>
         <div className="col-md-2 mt-5">
-          <Link style={{borderBottom:'1px solid lightGray'}} class="nav-link   text-light  h6 " to="/order">
+          <Link  class="nav-link   text-light  h6 dashside " to="/order">
             Order
           </Link>
-          <Link style={{borderBottom:'1px solid lightGray'}} class="nav-link  text-light  h6 " to="/orderList">
+          <Link  class="nav-link  text-light  h6 dashside" to="/orderList">
             OrderList
           </Link>
-          <Link style={{borderBottom:'1px solid lightGray'}} class="nav-link  text-light h6 " to="/review">
+          <Link  class="nav-link  text-light h6 dashside" to="/review">
             Review
           </Link>
         </div>

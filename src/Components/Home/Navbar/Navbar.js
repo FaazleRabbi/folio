@@ -1,6 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { UserContext } from "../../../App";
+import navImage from "../../../images/Creative Agency.jpg"
+import "./navbar.css"
 
 const Navbar = () => {
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
@@ -27,10 +29,11 @@ const Navbar = () => {
   return (
     <div style={{ backgroundColor: "#1e292f" }} className="pl-5 pr-5">
       <nav class="navbar navbar-expand-lg navbar-light font-weight-bold">
-        <Link class="navbar-brand bg-light pt-2 pb-2 pl-4 pr-4 rounded" to="/">
-          L<span className="text-danger">O</span>G
+        <Link class="navbar-brand" to="/">
+        <img  src={navImage} alt="navImage" className="navImage"/>
+          {/* L<span className="text-danger">O</span>G
           <span className="text-danger">O</span>{" "}
-          <span className="text-primary">BAKERY</span>
+          <span className="text-primary">BAKERY</span> */}
         </Link>
         <button
           class="navbar-toggler  bg-light"
@@ -60,7 +63,7 @@ const Navbar = () => {
 
             {adminEmail && (
               <li class="nav-item">
-                <Link class="nav-link h6 mr-4" to="/admin">
+                <Link class="h6 mr-4 text-light" to="/admin">
                   Admin
                 </Link>
               </li>
